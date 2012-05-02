@@ -33,27 +33,27 @@ describe(@"ObjectivePosterousSpec", ^{
     
     describe(@"loadSite", ^{
         it(@"should load sites", ^{
-//            NSLog(@"delegate = %@", delegate);
-//            __block NSArray* sites = nil;
-//            [[delegate expect] posterous:posterous loadSiteDidFinish:[OCMArg checkWithBlock:^(NSArray* loadedSites){
-//                NSLog(@"loaded sites: %@", loadedSites);
-//                sites = loadedSites;
-//                return YES;
-//            }]];
-//            [[delegate reject] posterous:posterous loadSiteDidFailWithError:[OCMArg any]];
-//            
-//            posterous.delegate = delegate;
-//            [posterous loadSite];
-//            
-//            [$ waitUntil:^{ return (BOOL)(sites != nil); }];
-//            
-//            expect(sites).Not.toBeNil();
-//            expect([sites count]).toBeGreaterThan(0);
-//            IGPSite* site = [sites $first];
-//            expect(site.name).Not.toBeNil();
-//            expect(site.hostname).Not.toBeNil();
-//            expect(site.fullHostname).Not.toBeNil();
-//            expect(site.siteId).Not.toBeNil();
+            NSLog(@"delegate = %@", delegate);
+            __block NSArray* sites = nil;
+            [[delegate expect] posterous:posterous loadSiteDidFinish:[OCMArg checkWithBlock:^(NSArray* loadedSites){
+                NSLog(@"loaded sites: %@", loadedSites);
+                sites = loadedSites;
+                return YES;
+            }]];
+            [[delegate reject] posterous:posterous loadSiteDidFailWithError:[OCMArg any]];
+            
+            posterous.delegate = delegate;
+            [posterous loadSite];
+            
+            [$ waitUntil:^{ return (BOOL)(sites != nil); }];
+            
+            expect(sites).Not.toBeNil();
+            expect([sites count]).toBeGreaterThan(0);
+            IGPSite* site = [sites $first];
+            expect(site.name).Not.toBeNil();
+            expect(site.hostname).Not.toBeNil();
+            expect(site.fullHostname).Not.toBeNil();
+            expect(site.siteId).Not.toBeNil();
         });
     });
     
