@@ -26,6 +26,8 @@
 		548BF45A155193D600AB7AFE /* IGObjectivePosterous.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF4211551864300AB7AFE /* IGObjectivePosterous.m */; };
 		548BF45B155193D600AB7AFE /* IGPSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF424155187D500AB7AFE /* IGPSite.m */; };
 		548BF45C1551947100AB7AFE /* ObjectivePosterousSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF4071551853F00AB7AFE /* ObjectivePosterousSpec.m */; };
+		548BF45F1551974C00AB7AFE /* IGPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF45E1551974C00AB7AFE /* IGPPost.m */; };
+		548BF4601551974C00AB7AFE /* IGPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF45E1551974C00AB7AFE /* IGPPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		548BF423155187D500AB7AFE /* IGPSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGPSite.h; path = Classes/IGPSite.h; sourceTree = "<group>"; };
 		548BF424155187D500AB7AFE /* IGPSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGPSite.m; path = Classes/IGPSite.m; sourceTree = "<group>"; };
 		548BF42E15518C1900AB7AFE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		548BF45D1551974C00AB7AFE /* IGPPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGPPost.h; path = Classes/IGPPost.h; sourceTree = "<group>"; };
+		548BF45E1551974C00AB7AFE /* IGPPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGPPost.m; path = Classes/IGPPost.m; sourceTree = "<group>"; };
 		B6E2D927A9B74D16B86950FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9931DB8BFE543369CD2F289 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -167,6 +171,8 @@
 				548BF4211551864300AB7AFE /* IGObjectivePosterous.m */,
 				548BF423155187D500AB7AFE /* IGPSite.h */,
 				548BF424155187D500AB7AFE /* IGPSite.m */,
+				548BF45D1551974C00AB7AFE /* IGPPost.h */,
+				548BF45E1551974C00AB7AFE /* IGPPost.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				548BF3C71551838500AB7AFE /* IGPViewController.m in Sources */,
 				548BF4221551864300AB7AFE /* IGObjectivePosterous.m in Sources */,
 				548BF425155187D500AB7AFE /* IGPSite.m in Sources */,
+				548BF45F1551974C00AB7AFE /* IGPPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +315,7 @@
 				548BF45A155193D600AB7AFE /* IGObjectivePosterous.m in Sources */,
 				548BF45B155193D600AB7AFE /* IGPSite.m in Sources */,
 				548BF45C1551947100AB7AFE /* ObjectivePosterousSpec.m in Sources */,
+				548BF4601551974C00AB7AFE /* IGPPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

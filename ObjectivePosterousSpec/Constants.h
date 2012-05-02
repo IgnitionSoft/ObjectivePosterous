@@ -9,3 +9,4 @@
 #define kPosterousApiToken @""
 #define kPosterousUsername @""
 #define kPosterousPassword @""
+#define kPosterousSiteId   @""

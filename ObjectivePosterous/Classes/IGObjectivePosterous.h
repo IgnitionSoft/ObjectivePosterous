@@ -8,13 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "MKNetworkKit/MKNetworkEngine.h"
+#import "IGPPost.h"
 
 @class IGObjectivePosterous;
 
 @protocol IGObjectivePosterousDelegate <NSObject>
 @optional
 -(void) posterous:(IGObjectivePosterous*)posterous loadSiteDidFinish:(NSArray*)sites;
--(void) posterous:(IGObjectivePosterous*)posterous loadSiteFailedWithError:(NSError*)error;
+-(void) posterous:(IGObjectivePosterous*)posterous loadSiteDidFailWithError:(NSError*)error;
+
+-(void) posterous:(IGObjectivePosterous*)posterous createPostDidFinishWithFullUrl:(NSString*)fullUrl;
+-(void) posterous:(IGObjectivePosterous*)posterous createPostDidFailWithError:(NSError*)error;
+
 @end
 
 @interface IGObjectivePosterous : MKNetworkEngine
@@ -25,6 +30,9 @@
 @property (nonatomic, retain) NSString* password;
 
 -(id) initWithApiToken:(NSString*)apiToken username:(NSString*)username password:(NSString*)password;
+
 -(void) loadSite;
+
+-(void) createPost:(IGPPost*)post withSiteId:(NSString*)siteId;
 
 @end
