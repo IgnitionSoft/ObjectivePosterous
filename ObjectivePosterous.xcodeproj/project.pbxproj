@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548BF3B41551838500AB7AFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3B31551838500AB7AFE /* UIKit.framework */; };
+		548BF3B61551838500AB7AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3B51551838500AB7AFE /* Foundation.framework */; };
+		548BF3B81551838500AB7AFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3B71551838500AB7AFE /* CoreGraphics.framework */; };
+		548BF3BE1551838500AB7AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548BF3BC1551838500AB7AFE /* InfoPlist.strings */; };
+		548BF3C01551838500AB7AFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF3BF1551838500AB7AFE /* main.m */; };
+		548BF3C41551838500AB7AFE /* IGPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF3C31551838500AB7AFE /* IGPAppDelegate.m */; };
+		548BF3C71551838500AB7AFE /* IGPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF3C61551838500AB7AFE /* IGPViewController.m */; };
+		548BF3CA1551838500AB7AFE /* IGPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548BF3C81551838500AB7AFE /* IGPViewController.xib */; };
+		548BF3FD1551853F00AB7AFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3D11551838500AB7AFE /* SenTestingKit.framework */; };
+		548BF3FE1551853F00AB7AFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3B31551838500AB7AFE /* UIKit.framework */; };
+		548BF3FF1551853F00AB7AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BF3B51551838500AB7AFE /* Foundation.framework */; };
+		548BF4051551853F00AB7AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548BF4031551853F00AB7AFE /* InfoPlist.strings */; };
+		548BF4221551864300AB7AFE /* IGObjectivePosterous.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF4211551864300AB7AFE /* IGObjectivePosterous.m */; };
+		548BF425155187D500AB7AFE /* IGPSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF424155187D500AB7AFE /* IGPSite.m */; };
+		548BF43F1551917400AB7AFE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2D927A9B74D16B86950FD /* libPods.a */; };
+		548BF459155193BC00AB7AFE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2D927A9B74D16B86950FD /* libPods.a */; };
+		548BF45A155193D600AB7AFE /* IGObjectivePosterous.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF4211551864300AB7AFE /* IGObjectivePosterous.m */; };
+		548BF45B155193D600AB7AFE /* IGPSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF424155187D500AB7AFE /* IGPSite.m */; };
+		548BF45C1551947100AB7AFE /* ObjectivePosterousSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BF4071551853F00AB7AFE /* ObjectivePosterousSpec.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		548BF3AF1551838500AB7AFE /* ObjectivePosterous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectivePosterous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548BF3B31551838500AB7AFE /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		548BF3B51551838500AB7AFE /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		548BF3B71551838500AB7AFE /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		548BF3BB1551838500AB7AFE /* ObjectivePosterous-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectivePosterous-Info.plist"; sourceTree = "<group>"; };
+		548BF3BD1551838500AB7AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548BF3BF1551838500AB7AFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		548BF3C11551838500AB7AFE /* ObjectivePosterous-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectivePosterous-Prefix.pch"; sourceTree = "<group>"; };
+		548BF3C21551838500AB7AFE /* IGPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGPAppDelegate.h; sourceTree = "<group>"; };
+		548BF3C31551838500AB7AFE /* IGPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGPAppDelegate.m; sourceTree = "<group>"; };
+		548BF3C51551838500AB7AFE /* IGPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGPViewController.h; sourceTree = "<group>"; };
+		548BF3C61551838500AB7AFE /* IGPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGPViewController.m; sourceTree = "<group>"; };
+		548BF3C91551838500AB7AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGPViewController.xib; sourceTree = "<group>"; };
+		548BF3D11551838500AB7AFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		548BF3FC1551853E00AB7AFE /* ObjectivePosterousSpec.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectivePosterousSpec.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548BF4021551853F00AB7AFE /* ObjectivePosterousSpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectivePosterousSpec-Info.plist"; sourceTree = "<group>"; };
+		548BF4041551853F00AB7AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548BF4071551853F00AB7AFE /* ObjectivePosterousSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectivePosterousSpec.m; sourceTree = "<group>"; };
+		548BF4091551853F00AB7AFE /* ObjectivePosterousSpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectivePosterousSpec-Prefix.pch"; sourceTree = "<group>"; };
+		548BF4201551864300AB7AFE /* IGObjectivePosterous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGObjectivePosterous.h; path = Classes/IGObjectivePosterous.h; sourceTree = "<group>"; };
+		548BF4211551864300AB7AFE /* IGObjectivePosterous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGObjectivePosterous.m; path = Classes/IGObjectivePosterous.m; sourceTree = "<group>"; };
+		548BF423155187D500AB7AFE /* IGPSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGPSite.h; path = Classes/IGPSite.h; sourceTree = "<group>"; };
+		548BF424155187D500AB7AFE /* IGPSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGPSite.m; path = Classes/IGPSite.m; sourceTree = "<group>"; };
+		548BF42E15518C1900AB7AFE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B6E2D927A9B74D16B86950FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9931DB8BFE543369CD2F289 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548BF3AC1551838500AB7AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF3B41551838500AB7AFE /* UIKit.framework in Frameworks */,
+				548BF3B61551838500AB7AFE /* Foundation.framework in Frameworks */,
+				548BF3B81551838500AB7AFE /* CoreGraphics.framework in Frameworks */,
+				548BF43F1551917400AB7AFE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548BF3F81551853E00AB7AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF3FD1551853F00AB7AFE /* SenTestingKit.framework in Frameworks */,
+				548BF3FE1551853F00AB7AFE /* UIKit.framework in Frameworks */,
+				548BF3FF1551853F00AB7AFE /* Foundation.framework in Frameworks */,
+				548BF459155193BC00AB7AFE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548BF3A41551838500AB7AFE = {
+			isa = PBXGroup;
+			children = (
+				548BF3B91551838500AB7AFE /* ObjectivePosterous */,
+				548BF4001551853F00AB7AFE /* ObjectivePosterousSpec */,
+				548BF3B21551838500AB7AFE /* Frameworks */,
+				548BF3B01551838500AB7AFE /* Products */,
+				C9931DB8BFE543369CD2F289 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		548BF3B01551838500AB7AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548BF3AF1551838500AB7AFE /* ObjectivePosterous.app */,
+				548BF3FC1551853E00AB7AFE /* ObjectivePosterousSpec.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548BF3B21551838500AB7AFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548BF3B31551838500AB7AFE /* UIKit.framework */,
+				548BF3B51551838500AB7AFE /* Foundation.framework */,
+				548BF3B71551838500AB7AFE /* CoreGraphics.framework */,
+				548BF3D11551838500AB7AFE /* SenTestingKit.framework */,
+				B6E2D927A9B74D16B86950FD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548BF3B91551838500AB7AFE /* ObjectivePosterous */ = {
+			isa = PBXGroup;
+			children = (
+				548BF41F1551861400AB7AFE /* Classes */,
+				548BF3C21551838500AB7AFE /* IGPAppDelegate.h */,
+				548BF3C31551838500AB7AFE /* IGPAppDelegate.m */,
+				548BF3C51551838500AB7AFE /* IGPViewController.h */,
+				548BF3C61551838500AB7AFE /* IGPViewController.m */,
+				548BF3C81551838500AB7AFE /* IGPViewController.xib */,
+				548BF3BA1551838500AB7AFE /* Supporting Files */,
+			);
+			path = ObjectivePosterous;
+			sourceTree = "<group>";
+		};
+		548BF3BA1551838500AB7AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548BF3BB1551838500AB7AFE /* ObjectivePosterous-Info.plist */,
+				548BF3BC1551838500AB7AFE /* InfoPlist.strings */,
+				548BF3BF1551838500AB7AFE /* main.m */,
+				548BF3C11551838500AB7AFE /* ObjectivePosterous-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548BF4001551853F00AB7AFE /* ObjectivePosterousSpec */ = {
+			isa = PBXGroup;
+			children = (
+				548BF42E15518C1900AB7AFE /* Constants.h */,
+				548BF4071551853F00AB7AFE /* ObjectivePosterousSpec.m */,
+				548BF4011551853F00AB7AFE /* Supporting Files */,
+			);
+			path = ObjectivePosterousSpec;
+			sourceTree = "<group>";
+		};
+		548BF4011551853F00AB7AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548BF4021551853F00AB7AFE /* ObjectivePosterousSpec-Info.plist */,
+				548BF4031551853F00AB7AFE /* InfoPlist.strings */,
+				548BF4091551853F00AB7AFE /* ObjectivePosterousSpec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548BF41F1551861400AB7AFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				548BF4201551864300AB7AFE /* IGObjectivePosterous.h */,
+				548BF4211551864300AB7AFE /* IGObjectivePosterous.m */,
+				548BF423155187D500AB7AFE /* IGPSite.h */,
+				548BF424155187D500AB7AFE /* IGPSite.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548BF3AE1551838500AB7AFE /* ObjectivePosterous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548BF3E21551838500AB7AFE /* Build configuration list for PBXNativeTarget "ObjectivePosterous" */;
+			buildPhases = (
+				548BF3AB1551838500AB7AFE /* Sources */,
+				548BF3AC1551838500AB7AFE /* Frameworks */,
+				548BF3AD1551838500AB7AFE /* Resources */,
+				3028810746024B71B1AF5934 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectivePosterous;
+			productName = ObjectivePosterous;
+			productReference = 548BF3AF1551838500AB7AFE /* ObjectivePosterous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		548BF3FB1551853E00AB7AFE /* ObjectivePosterousSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548BF40A1551853F00AB7AFE /* Build configuration list for PBXNativeTarget "ObjectivePosterousSpec" */;
+			buildPhases = (
+				548BF3F71551853E00AB7AFE /* Sources */,
+				548BF3F81551853E00AB7AFE /* Frameworks */,
+				548BF3F91551853E00AB7AFE /* Resources */,
+				548BF3FA1551853E00AB7AFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectivePosterousSpec;
+			productName = ObjectivePosterousSpec;
+			productReference = 548BF3FC1551853E00AB7AFE /* ObjectivePosterousSpec.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548BF3A61551838500AB7AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IGP;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Ignition;
+			};
+			buildConfigurationList = 548BF3A91551838500AB7AFE /* Build configuration list for PBXProject "ObjectivePosterous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 548BF3A41551838500AB7AFE;
+			productRefGroup = 548BF3B01551838500AB7AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548BF3AE1551838500AB7AFE /* ObjectivePosterous */,
+				548BF3FB1551853E00AB7AFE /* ObjectivePosterousSpec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548BF3AD1551838500AB7AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF3BE1551838500AB7AFE /* InfoPlist.strings in Resources */,
+				548BF3CA1551838500AB7AFE /* IGPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548BF3F91551853E00AB7AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF4051551853F00AB7AFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3028810746024B71B1AF5934 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		548BF3FA1551853E00AB7AFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548BF3AB1551838500AB7AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF3C01551838500AB7AFE /* main.m in Sources */,
+				548BF3C41551838500AB7AFE /* IGPAppDelegate.m in Sources */,
+				548BF3C71551838500AB7AFE /* IGPViewController.m in Sources */,
+				548BF4221551864300AB7AFE /* IGObjectivePosterous.m in Sources */,
+				548BF425155187D500AB7AFE /* IGPSite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548BF3F71551853E00AB7AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548BF45A155193D600AB7AFE /* IGObjectivePosterous.m in Sources */,
+				548BF45B155193D600AB7AFE /* IGPSite.m in Sources */,
+				548BF45C1551947100AB7AFE /* ObjectivePosterousSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		548BF3BC1551838500AB7AFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548BF3BD1551838500AB7AFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		548BF3C81551838500AB7AFE /* IGPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548BF3C91551838500AB7AFE /* en */,
+			);
+			name = IGPViewController.xib;
+			sourceTree = "<group>";
+		};
+		548BF4031551853F00AB7AFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548BF4041551853F00AB7AFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548BF3E01551838500AB7AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		548BF3E11551838500AB7AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		548BF3E31551838500AB7AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9931DB8BFE543369CD2F289 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectivePosterous/ObjectivePosterous-Prefix.pch";
+				INFOPLIST_FILE = "ObjectivePosterous/ObjectivePosterous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		548BF3E41551838500AB7AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9931DB8BFE543369CD2F289 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectivePosterous/ObjectivePosterous-Prefix.pch";
+				INFOPLIST_FILE = "ObjectivePosterous/ObjectivePosterous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		548BF40B1551853F00AB7AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9931DB8BFE543369CD2F289 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectivePosterousSpec/ObjectivePosterousSpec-Prefix.pch";
+				INFOPLIST_FILE = "ObjectivePosterousSpec/ObjectivePosterousSpec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		548BF40C1551853F00AB7AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9931DB8BFE543369CD2F289 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectivePosterousSpec/ObjectivePosterousSpec-Prefix.pch";
+				INFOPLIST_FILE = "ObjectivePosterousSpec/ObjectivePosterousSpec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548BF3A91551838500AB7AFE /* Build configuration list for PBXProject "ObjectivePosterous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548BF3E01551838500AB7AFE /* Debug */,
+				548BF3E11551838500AB7AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548BF3E21551838500AB7AFE /* Build configuration list for PBXNativeTarget "ObjectivePosterous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548BF3E31551838500AB7AFE /* Debug */,
+				548BF3E41551838500AB7AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548BF40A1551853F00AB7AFE /* Build configuration list for PBXNativeTarget "ObjectivePosterousSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548BF40B1551853F00AB7AFE /* Debug */,
+				548BF40C1551853F00AB7AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548BF3A61551838500AB7AFE /* Project object */;
+}
