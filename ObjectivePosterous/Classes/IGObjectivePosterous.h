@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MKNetworkKit/MKNetworkEngine.h"
+#import "MKNetworkKit/MKNetworkKit.h"
 #import "IGPPost.h"
 
 @class IGObjectivePosterous;

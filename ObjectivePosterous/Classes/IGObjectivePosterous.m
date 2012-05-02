@@ -6,7 +6,6 @@
 //  Copyright (c) 2012年 Ignition. All rights reserved.
 //
 
-#import "Reachability.h"
 #import "IGObjectivePosterous.h"
 #import "JSONKit.h"
 #import "JTObjectMapping/NSObject+JTObjectMapping.h"
