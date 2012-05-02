@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors       = { 'Francis Chong' => 'francis@ignition.hk' }
   s.source        = { :git => 'git://github.com/IgnitionSoft/ObjectivePosterous.git', :tag => '0.1.0' }
   s.source_files  = 'ObjectivePosterous/Classes/*.{h,m}'
-  s.clean_files   = '*.xcodeproj', 'Pods', 'ObjectivePosterousSpec'
+  s.clean_paths   = '*.xcodeproj', 'Pods', 'ObjectivePosterousSpec'
   s.requires_arc  = true
 
   s.dependency 'MKNetworkKit'
